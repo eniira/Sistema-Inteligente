@@ -16,7 +16,7 @@ warnings.filterwarnings('ignore')
 
 x_treino = np.loadtxt('x_train.txt')
 x_teste = np.loadtxt('x_test.txt')
-y_treino = np.array('y_train.txt')
+y_treino = np.loadtxt('y_train.txt', dtype="str")
 y_teste = np.loadtxt('y_test.txt', dtype="str")
 
 modelo = SVC(kernel="linear")

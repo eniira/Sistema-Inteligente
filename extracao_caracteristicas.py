@@ -58,5 +58,5 @@ x_teste_formatado = x_teste_feat.reshape(x_teste_feat.shape[0], -1)
  
 np.savetxt('x_train.txt', x_treino_formatado)
 np.savetxt('x_test.txt', x_teste_formatado)
-np.savetxt('y_train.txt', y_treino)
+np.savetxt('y_train.txt', y_treino, fmt='%s')
 np.savetxt('y_test.txt', y_teste, fmt='%s')
