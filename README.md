@@ -1,9 +1,13 @@
-# Sistema-Inteligente
+# Trabalho de Inteligência Artificial - Simpsons
 
-## Instalação
-
-- sklearn, seaborn, cv2, tensorflow
+Alunos: Catarine Soares Cruz, Guilherme Augusto Rodrigues Maturana, Gustavo Zanzin Guerreiro Martins, Renan Guensuke Aoki Sakashita
 
 ## Execução
 
-- python cnn.py
+- Extrair o arquivo .zip
+
+- python3 extracao_caracteristicas.py
+
+- python3 classificacao.py
+
+- python3 combinacao_class.py
